@@ -36,7 +36,7 @@ class Flight{
         udfoer.click({force:true})
     }
     seeAllAvailableFlights(){
-        cy.wait(2000)
+        cy.wait(5000)
         cy.get('.XWBoJb').click()
         cy.wait(8000)
     }

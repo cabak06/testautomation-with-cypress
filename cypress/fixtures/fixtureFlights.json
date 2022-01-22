@@ -1,0 +1,22 @@
+   [
+     {
+
+        "departDest":"London",
+        "arrivalDest":"Paris",
+        "departDat":"fre. 28. jan.",
+        "returnDat":"fre. 1. apr."
+     },
+     { 
+        "departDest":"København",
+        "arrivalDest":"Ankara",
+        "departDat":"fre. 28. jan.",
+        "returnDat":"fre. 8. apr."
+     },
+     {
+        "departDest":"Berlin",
+        "arrivalDest":"Amsterdam",
+        "departDat":"fre. 28. jan.",
+        "returnDat":"fre. 8. apr."
+     }
+
+   ]

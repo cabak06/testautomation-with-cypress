@@ -1,0 +1,4 @@
+projectId: 95qan7
+
+npx cypress run --record --key f33a1de2-037f-463c-9a62-0cb54596389f
+

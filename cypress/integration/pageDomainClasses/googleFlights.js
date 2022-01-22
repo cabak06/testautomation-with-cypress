@@ -38,7 +38,7 @@ class Flight{
     }
     seeAllAvailableFlights(){
         cy.wait(5000)
-        cy.get('.XWBoJb').click()
+        cy.get('.XWBoJb').click(force:true)
         cy.wait(8000)
     }
 

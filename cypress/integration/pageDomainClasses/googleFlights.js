@@ -1,6 +1,6 @@
 class Flight{
     chooseDoublePassengers(){
-        cy.wait(5000)
+        cy.wait(2000)
         cy.get('.VfPpkd-vQzf8d > .VfPpkd-kBDsod > .NMm5M > path').click({force:true})
         //Flightpage - click + så der ialt er to personer
         cy.get('#c3-1 > .ZAJcuf > [jsname="TdyTDe"] > .VfPpkd-RLmnJb').click({force:true})
@@ -37,9 +37,9 @@ class Flight{
         udfoer.click({force:true})
     }
     seeAllAvailableFlights(){
-        cy.wait(5000)
-        cy.get('.XWBoJb').click(force:true)
-        cy.wait(8000)
+        cy.wait(3000)
+        cy.get('.XWBoJb').click({force:true})
+        cy.wait(4000)
     }
 
 
